@@ -83,3 +83,94 @@ Acknowledgments
 
 Data sourced from historical records (e.g., EIA.gov, OPEC.org, BBC archives).
 Inspired by xAI’s guidance on Bayesian Change Point modeling.
+
+Brent Oil Price Analysis - Task 2
+Project Overview
+This project implements a Bayesian Change Point model to detect structural breaks in Brent oil prices (May-Jun 1987) using PyMC3. It interprets results, associates changes with historical events, and explores advanced extensions for future work. The analysis builds on Task 1’s foundation.
+Objectives
+
+Implement a Bayesian Change Point model to identify price shifts.
+Interpret model outputs to determine change point dates.
+Associate changes with events from oil_market_events.csv.
+Quantify impacts and plan advanced analyses.
+
+Getting Started
+Prerequisites
+
+Python 3.x
+
+Required libraries:
+
+pandas (data manipulation)
+matplotlib (plotting)
+numpy (calculations)
+statsmodels (stationarity tests)
+pymc3 (Bayesian modeling)
+
+
+Install dependencies:
+pip install pandas matplotlib numpy statsmodels pymc3
+
+
+
+Installation
+
+Clone or download the project repository.
+
+Place files in the directory:
+
+BrentOilPrices.csv (price data)
+oil_market_events.csv (event data)
+prepare_data_eda.py (EDA script)
+change_point_model.py (model script)
+
+
+Run scripts in order:
+python prepare_data_eda.py
+python change_point_model.py
+
+
+
+Data
+
+BrentOilPrices.csv: Daily prices from May 20, 1987, to June 26, 1987.
+oil_market_events.csv: 15 historical events with dates and categories.
+
+Usage
+
+Run prepare_data_eda.py to visualize prices and log returns.
+Run change_point_model.py to fit the change point model.
+Analyze trace plots and posteriors to identify change points.
+Compare change dates with events and document impacts.
+
+Workflow
+
+Data Preparation: Load and transform price data.
+EDA: Plot trends and test stationarity.
+Modeling: Define and sample a PyMC3 change point model.
+Interpretation: Extract change points and quantify shifts.
+Association: Link to events and hypothesize causes.
+
+Assumptions and Limitations
+
+Assumes a single change point; multiple shifts may exist.
+Short dataset (38 days) limits reliability of detections.
+Correlation with events doesn’t prove causation.
+
+Future Work
+
+Incorporate additional data (e.g., GDP, exchange rates).
+Explore VAR or Markov-Switching models for deeper insights.
+
+Notes
+
+Check convergence with pm.plot_trace() and pm.summary().
+Document findings in a report or Jupyter notebook.
+Adjust model complexity based on data range.
+
+License
+Educational use only. No commercial intent.
+Acknowledgments
+
+Data from EIA.gov, OPEC.org, and news archives.
+Guided by xAI’s Bayesian modeling approach.
