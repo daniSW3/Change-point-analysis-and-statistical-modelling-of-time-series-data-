@@ -1,0 +1,16 @@
+Event Name,Start Date,Description,Category
+1973 Oil Crisis,1973-10-17,"OAPEC imposed an oil embargo on nations supporting Israel in the Yom Kippur War, quadrupling oil prices from $3 to $12 per barrel.",Geopolitical
+1979 Iranian Revolution,1979-01-16,"The revolution disrupted Iran's oil production, causing a supply shortage and doubling oil prices to over $30 per barrel.",Geopolitical
+1980 Iran-Iraq War,1980-09-22,"The war reduced oil output from Iran and Iraq, leading to price spikes and global supply concerns.",Geopolitical
+1986 Oil Glut,1986-01-01,"OPEC increased production to regain market share, causing a supply glut and a 50% price drop to around $10 per barrel.",OPEC Decisions
+1990 Gulf War,1990-08-02,"Iraq’s invasion of Kuwait disrupted oil supplies, causing prices to double to $40 per barrel before stabilizing.",Geopolitical
+1997 Asian Financial Crisis,1997-07-01,"Economic collapse in Asia reduced oil demand, leading to a price drop to below $15 per barrel.",Economic
+2003 Iraq War,2003-03-20,"The U.S. invasion of Iraq disrupted oil exports, causing price volatility and a rise to $35 per barrel.",Geopolitical
+2008 Financial Crisis,2008-09-15,"Global demand collapsed after Lehman Brothers’ bankruptcy, causing oil prices to plummet from $145 to $32 per barrel.",Economic
+2011 Arab Spring,2011-02-01,"Uprisings in Libya and Egypt disrupted oil production, pushing prices above $100 per barrel.",Geopolitical
+2014 OPEC Production Decision,2014-11-27,"OPEC maintained production levels despite a supply glut, leading to a price collapse from $110 to below $50 per barrel.",OPEC Decisions
+2016 OPEC+ Production Cut,2016-11-30,"OPEC and non-OPEC members agreed to cut production by 1.8 million barrels per day, stabilizing prices around $50 per barrel.",OPEC Decisions
+2020 COVID-19 Crash,2020-03-01,Global demand fell due to the pandemic; a Russia-Saudi price war caused prices to drop to negative levels in April.,Public Health
+2020 Russia-Saudi Price War,2020-03-08,"Russia rejected OPEC’s proposed cuts, prompting Saudi Arabia to slash prices, leading to a 65% oil price drop.",OPEC Decisions
+2022 Russia-Ukraine War,2022-02-24,Russia’s invasion and Western sanctions on Russian oil caused prices to spike to $120 per barrel.,Geopolitical
+2023 OPEC+ Production Cut,2023-04-02,"OPEC+ announced voluntary cuts of 1.65 million barrels per day, pushing prices to $87 per barrel before declining.",OPEC Decisions
