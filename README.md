@@ -105,11 +105,11 @@ pandas (data manipulation)
 matplotlib (plotting)
 numpy (calculations)
 statsmodels (stationarity tests)
-pymc3 (Bayesian modeling)
+pymc (Bayesian modeling)
 
 
 Install dependencies:
-pip install pandas matplotlib numpy statsmodels pymc3
+pip install pandas matplotlib numpy statsmodels pymc
 
 
 
